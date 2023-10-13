@@ -1,4 +1,4 @@
-This is a simple batch file I have create to automate creating map tiles for google maps and leafletJS.
+This is a simple batch file I have created to automate creating map tiles for google maps and leafletJS.
 Put this tileCutter folder directly into the libvips library (not in bin, outside of it).
 Throw some inmages into images folder and run the script, you will have a simple menu that will show you your files and will let you which one you want to process.
 
