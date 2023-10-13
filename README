@@ -1,0 +1,7 @@
+This is a simple batch file I have create to automate creating map tiles for google maps and leafletJS.
+Put this tileCutter folder directly into the libvips library (not in bin, outside of it).
+Throw some inmages into images folder and run the script, you will have a simple menu that will show you your files and will let you which one you want to process.
+
+All tiles are in .WEBP format with a black background, the tile size is 256x256 witch google layout.
+
+Disclaimer: If you want to use those tiles with leafletJS, you have to change in your javascript files hierarchy from {z}/{x}/{y} to {z}/{y}/{x}.
