@@ -6,21 +6,21 @@ The tile cutter simplifies the process of creating tiles for map applications. I
 
 **Note: Make sure you have VIPS installed. You can obtain it from https://github.com/libvips/libvips**
 
-Before creating tiles you have to choose your zoom level, I have provided zoom level 5 template for gimp you just have to throw your image in there and make it fit within template. 
-Adjust the image size to fit within the template, ensuring the longest side is smaller by 64-128px. You can also create your own template using provided zoom levels table.
-*Remember to create a template with transparent background (alpha channel) and also add it to the image layer after resizing it*
+Before creating tiles you have to choose your zoom level, I have provided a zoom level 5 template for gimp you just have to throw your image in there and make it fit within the template. 
+Adjust the size of an, ensuring the longest side is smaller by 64-128px. You can also create your template using the provided zoom levels table.
+*Remember to create a template with a transparent background (alpha channel) and also add it to the image layer after resizing it*
 
 **So for example:**
-*We have a rectangular image, 9000 x 4500, in this case we do simple math
+*We have a rectangular image, 9000 x 4500, in this case, we do simple math
 8192 - 64 = 8128, so the longest side must be 8128px*
 
 ## Zoom levels
 
-The zoom levels are the size of an image. Zoom level 0 mean that whole image will be displayed in a 256x256px square(single tile). With every zoom level the square size is multiplied by 2.
+The zoom levels are the size of an image. Zoom level 0 means that the whole image will be displayed in a 256x256px square(single tile). With every zoom level, the square size is multiplied by 2.
 
 To obtain the zoom level that you want your image has to fit into the zoom level square, the image itself doesn`t have to be square.
 
-This is the table that will help you choose your zoom level. Personally I don`t think I would go above level 7. 
+This is the table that will help you choose your Zoom level. I don`t think I would go above level 7. 
 
 | Zoom level        | Size in px                                          |
 | ----------------- | ------------------------------------------------------------------ |
