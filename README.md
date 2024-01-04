@@ -8,7 +8,7 @@ The tile cutter simplifies the process of creating tiles for map applications. I
 
 Before creating tiles you have to choose your zoom level, I have provided a zoom level 5 template for gimp you just have to throw your image in there and make it fit within the template. 
 Adjust the size of an, ensuring the longest side is smaller by 64-128px. You can also create your template using the provided zoom levels table.
-*Remember to create a template with a transparent background (alpha channel) and also add it to the image layer after resizing it*
+*Remember to create a template with a transparent background (alpha channel) and also add alpha channel to the image layer after resizing it*
 
 **So for example:**
 *We have a rectangular image, 9000 x 4500, in this case, we do simple math
